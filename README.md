@@ -52,11 +52,47 @@
             <ul></ul> <span>ROOMS</span>
         </div>
     </div>
-    <style>
-        body{
-            transition: all 0.5s ease;
-        }
+    
+    h1{
+    color: aqua;
+}
+.sky {
+    width: 750px;
+    height: 250px;
+    background-color: #ccf2ff;
 
-    </style> -->
+}
+
+body{
+    margin-top: 100px;
+    margin-left: 200px;
+
+}
+.sun{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #ffcc00;
+    box-shadow: 5px 5px 5px #e6b800;
+    margin-left: 100px;
+   
+}
+.mountain1{
+    width: 500px;
+    height: 250px;
+    background-color: green;
+    border-radius: 0 200% 0 0;
+    margin: -110px 0 0 0;
+    float: left;
+}
+.mountain2{
+    width: 500px;
+    height: 250px;
+    background-color: green;
+    /* border-color: green; */
+    border-radius: 200% 0 0 0;
+    margin: -110px 0 0 -250px;
+    float: left;
+}
 </body>
 </html>
